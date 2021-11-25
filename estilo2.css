@@ -1,0 +1,27 @@
+body {
+	font-family: 'Montagu Slab', serif;
+	background-color: #C9C0BB;
+	text-align: 	center;
+	table-layout: 	;
+}
+
+table {
+	margin-left: 	50%;
+	text-align: 	center;
+	padding: 	10px;
+	border-color: #FF88AA;
+	background-color: #82CAFF;	
+}
+h1{
+	font-family: 'Ubuntu', sans-serif;
+}
+tr:nth-child(even){
+	background-color: #7FFFD4;
+}
+form{
+	table-layout: 	
+
+}
+li{
+	text-align: center;
+}

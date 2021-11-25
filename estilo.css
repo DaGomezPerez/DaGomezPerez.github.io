@@ -1,0 +1,85 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background-color:#00FFFF ; 
+ padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 25%;
+  padding-left: 20%;
+
+}
+h1 {
+	font-family: 'Montagu Slab', serif;
+	text-align: right;
+}
+h2 {
+	text-align: left;}
+p {
+	margin-left: 10px;
+	font-size: 12pt;
+	color: #3B3131;}
+a:link {
+	color: #872657; }
+a:visited {
+	color: purple; }
+div {
+
+	background-color: #B2C248;/**Color del fodo**/
+	margin-left: 15px;/**margen izqierdo**/
+	margin-right: 10px;/**margen derecho**/
+	text-decoration: underline;/**subrayado inferior**/
+
+}
+
+hr {
+	border-color: deeppink;
+}
+span {
+	text-decoration: underline;
+	color: #FFC0CB;
+	text-shadow: 2px 2px 2px; 
+}
+
+.marron{
+	color: brown;
+	background-color: #FFE5B4;
+}
+
+.lp{
+	color: red;
+	background-color: black;
+	text-decoration: underline;
+	margin-right: 120px;
+}
+form{
+	border: 	3px solid	;
+}
+p{
+	margin: 10%;	
+}
+.flotar{
+	float: left;
+	padding: 20px;
+}
+.colocar{
+	clear: right;
+}
+.flot{
+	float: right;
+}
+
+.fl{
+	float: left;
+	margin-bottom: 200px;
+}
+li{
+	color: blueviolet;
+	display: inline;
+	padding-right: 20%;
+}
+hr{
+	border-style: dotted;
+}
+
+.fly{
+		padding-left: 50%;
+}
