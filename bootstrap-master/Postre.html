@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+  <title>Filloas</title>
+  <meta charset="utf-8">
+  <!-- Responsiveness --> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--   Consulta as .css e os scripts en .js para que funcione Bootstrap 4-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+  /* Veña vale.... aquí si podemos definir tanto esa clase coma img  */
+  .carousel-inner{
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container">
+      <h2>Como hacer filloas</h2>
+      <p>David Gomez</p>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="sr.html">De leche</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="appweb.html">Orejas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="tics.html">Crepes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="https://irocho.wordpress.com">i-rochiño</a>
+        </li>
+      </ul>
+    </div>
+    <h1>Filloas gallegas</h1>
+    <p>Por un gallego</p>
+    <small class="text-muted">Tabla de ingredientes</small>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Ingredientes</th>
+          <th>Cantidad</th>
+          <th>Marca</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Leche</td>
+          <td>500ml</td>
+          <td>entera</td>
+        </tr>
+        <tr>
+          <td>Huevos</td>
+          <td>3</td>
+          <td>De gallina</td>
+        </tr>
+        <tr>
+          <td>Harina</td>
+          <td>200gr</td>
+          <td>De trigo</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="jumbotron">
+      <h1>Receta</h1>
+      <p>Ponemos todos los ingredientes en la jarra de la batidora y mezclamos bien. Guardamos la masa en el frigorífico durante unos 30 minutos.</p>
+
+<p>Una vez que la masa ha reposado, vamos a preparar las filloas. En Galicia, hay unas sartenes especiales de hierro, llamadas “filloeiras”, en las que se pueden hacer varias a la vez, pero como no la tendréis, utilizaremos una sartén plana, mejor antiadherente.  Untamos la base con un trozo de tocino ibérico (sin salar), mantequilla, margarina o un papel con aceite, cuando esté caliente, vertemos un cucharón de masa, movemos la sartén para que se extienda por toda la sartén. Cuando los bordes comiencen a dorarse y hayan salido burbujitas, con los dedos o con una espátula, le damos la vuelta, dejamos que se haga por el otro lado y lista para comer.</p>
+    </div>
+   
+
+
+    <div class="container">
+      <h2>Outras recetas</h2>
+      <a href="#" class="btn btn-info" role="button">De sangre de cerdo</a>
+      <button type="button" class="btn btn-info">Orejas</button>
+      <input type="button" class="btn btn-info" value="Input Button">
+      <input type="submit" class="btn btn-info" value="Submit Button">
+      <button type="button" class="btn btn-outline-dark">Crepes</button>
+    </div>
+
+    <div class="container">
+      <h2>Fai clic</h2>
+      <p>Clica en el boton si te gusto.</p>
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Fai clic si te gusto</button>
+      <div id="demo" class="collapse">
+        Espero que te haya gustado.
+      </div>
+    </div>
+
+<br>
+
+
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+    ​
+    <!-- Indicadores: raias debaixo das imaxes-->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0"></li>
+      <li data-target="#demo" data-slide-to="1" class="active"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+    </ul>
+
+    <!-- Slideshow -->
+    <div class="carousel-inner">
+      <!-- Imaxe enooorme -->
+      <div class="carousel-item">
+        <img src="imaxes/Filloas.jpg" alt="filloas" width="500px" height="500px">
+      </div>
+
+      <!--    Quen leva active é o primeiro que sae-->      
+      <div class="carousel-item active" >
+        <img src="imaxes/Crepes.jpg" alt="Crepes" width="500px" height="500px">
+      </div>
+      <!-- Imaxe chiquitina -->
+      <div class="carousel-item">
+        <img src="imaxes/Crepes2.jpg" alt="crepes" width="500px" height="500px">
+      </div>
+
+      <div class="carousel-item">
+        <img src="imaxes/Filloas2.jpg" alt="Filloas" width="500px" height="500px">
+      </div>
+
+
+    </div>
+
+    <!-- Frechiñas dereita e esquerda -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+</div>
+
+
+
+
+  </div>
+</body>
+
+</html>
